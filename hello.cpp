@@ -12,7 +12,7 @@ std::string GetHelloString(std::string in)
 
 int main (int argc, char * argv[])
 {
-	std::string name = "Bob";
+	std::string name = "Larry";
 
 	if(argc > 1)
 		name = argv[1];
