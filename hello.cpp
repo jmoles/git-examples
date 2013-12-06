@@ -5,14 +5,14 @@
 std::string GetHelloString(std::string in)
 {
 	std::stringstream ss;
-	ss << "Hello, " << in << "!";
+	ss << "Hello, " << in << "?";
 	return ss.str();
 }
 
 
 int main (int argc, char * argv[])
 {
-	std::string name = "Bob";
+	std::string name = "Sue";
 
 	if(argc > 1)
 		name = argv[1];
